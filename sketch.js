@@ -53,6 +53,10 @@ draw = () => {
   image(graph, 0, 0)
 }
 
+//TODO
+// refactor into one function only if it is more efficient
+// have color option
+
 drawLinGraph = (_spectrum) => {
   for (let i = 0; i < _spectrum.length; i++) {
     graph.stroke(255 - _spectrum[i])
